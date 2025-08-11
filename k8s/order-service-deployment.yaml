@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: ntezimanagad/order-service:1.0
+          image: ntezimanagad/order-service:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
